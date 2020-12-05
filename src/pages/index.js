@@ -13,7 +13,7 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="100px 0" sm-padding="40px 0">
+		<Section padding="100px 0" sm-padding="40px 0" background="#efc5ff">
 			<Override slot="SectionContent" align-items="center" />
 			<Text
 				as="h2"
@@ -21,7 +21,12 @@ export default (() => {
 				md-font="--headline2"
 				margin="20px 0 0 0"
 				transition="all 0s --transitionTimingFunction-easeOut 0s"
-				transform="matrix3d(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1)"
+				transform="matrix(1,0,0, 1,0,0) skew(0deg, 0deg)"
+				text-transform="uppercase"
+				text-align="left"
+				padding="0222px 220p22x 0px22 2px"
+				mix-blend-mode="multiply"
+				filter="invert(0%)"
 			>
 				Пошли н!ахуй
 			</Text>
